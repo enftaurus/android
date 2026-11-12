@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Royya Watch</string>
+    <string name="tagline">Intelligence at the water\'s edge</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_pond">Pond</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_debug">Simulation</string>
+
+    <!-- Common -->
+    <string name="greeting">Namaskaram</string>
+    <string name="farmer_default_name">Ravi Kumar</string>
+    <string name="my_pond">My Pond</string>
+    <string name="status_healthy">HEALTHY</string>
+    <string name="status_attention">ATTENTION</string>
+    <string name="status_critical">CRITICAL</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="status_unknown">UNKNOWN</string>
+    <string name="live_badge">LIVE</string>
+    <string name="cached_badge">CACHED</string>
+    <string name="simulated_badge">SIMULATION</string>
+    <string name="last_updated">Last updated: %1$s</string>
+    <string name="offline_message">Offline mode. Showing cached pond data.</string>
+
+    <!-- Metrics -->
+    <string name="metric_do">Dissolved Oxygen</string>
+    <string name="metric_temp">Water Temperature</string>
+    <string name="metric_turbidity">Turbidity</string>
+    <string name="metric_ph">pH Balance</string>
+    <string name="metric_tds">TDS Level</string>
+    <string name="unit_mg_l">mg/L</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_ntu">NTU</string>
+    <string name="unit_ppm">ppm</string>
+    <string name="oxygen_source_predicted">Predicted ML</string>
+    <string name="oxygen_source_measured">Sensor Read</string>
+    <string name="oxygen_source_simulated">Simulated</string>
+
+    <!-- Pond Health -->
+    <string name="pond_health">Pond Health</string>
+    <string name="pond_health_good">Good · All systems normal</string>
+    <string name="pond_health_warning">Attention needed · Monitor DO</string>
+    <string name="pond_health_critical">Critical · Immediate action required</string>
+
+    <!-- Aerator Status & Controls -->
+    <string name="aerator_title">Aerator</string>
+    <string name="aerator_running">Running smoothly</string>
+    <string name="aerator_stopped">Currently stopped</string>
+    <string name="aerator_mode">Mode</string>
+    <string name="aerator_mode_auto">AUTO</string>
+    <string name="aerator_mode_manual">MANUAL</string>
+    <string name="aerator_turn_on">Turn On</string>
+    <string name="aerator_turn_off">Turn Off</string>
+    <string name="aerator_command_pending">Sending command…</string>
+    <string name="aerator_manual_disabled_hint">Manual controls disabled in AUTO mode</string>
+    <string name="aerator_auto_desc">Auto hysteresis triggers ON when DO &lt; 5.0 and OFF when DO &gt; 6.0</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Pond Alerts</string>
+    <string name="filter_all">All</string>
+    <string name="filter_critical">Critical</string>
+    <string name="filter_warning">Warning</string>
+    <string name="filter_resolved">Resolved</string>
+    <string name="no_active_alerts">No active alerts. Your pond is healthy.</string>
+    <string name="alert_btn_listen">Listen</string>
+    <string name="alert_btn_acknowledge">Acknowledge</string>
+    <string name="alert_acknowledged">Acknowledged</string>
+    <string name="alert_resolved">Resolved</string>
+    <string name="action_replay_audio">Replay Voice</string>
+    <string name="action_stop_audio">Stop Voice</string>
+
+    <!-- Critical Alert Experience -->
+    <string name="urgent_alert_title">EMERGENCY ALERT</string>
+    <string name="urgent_alert_subtitle">Royya Watch Voice Assistant</string>
+    <string name="urgent_alert_listening">Voice playing…</string>
+    <string name="urgent_alert_tap_to_listen">Tap to listen to Telugu voice advice</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to Royya Watch</string>
+    <string name="onboarding_welcome_subtitle">Smart aquaculture assistant for healthier ponds and calmer decisions.</string>
+    <string name="onboarding_btn_get_started">Get Started</string>
+    <string name="onboarding_language_title">Select Your Language</string>
+    <string name="onboarding_language_subtitle">Choose the language you prefer for screens and voice alerts.</string>
+    <string name="lang_telugu">తెలుగు (Telugu)</string>
+    <string name="lang_english">English</string>
+    <string name="onboarding_profile_title">Farmer Profile</string>
+    <string name="onboarding_profile_name">Farmer Name</string>
+    <string name="onboarding_profile_phone">Mobile Number</string>
+    <string name="onboarding_pairing_title">Pair Your Pond</string>
+    <string name="onboarding_pairing_subtitle">Select your shrimp pond device</string>
+    <string name="onboarding_permission_title">Enable Voice Notifications</string>
+    <string name="onboarding_permission_subtitle">Receive audible Telugu alerts when dissolved oxygen drops, even at night.</string>
+    <string name="onboarding_voice_test_title">Test Voice Audio</string>
+    <string name="onboarding_voice_test_subtitle">Listen to a sample Telugu alert voice message</string>
+    <string name="onboarding_btn_finish">Open Dashboard</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_farmer">Farmer Profile</string>
+    <string name="settings_section_audio">Voice &amp; Audio</string>
+    <string name="settings_voice_alerts_enabled">Voice Alerts Enabled</string>
+    <string name="settings_voice_repeat">Auto-repeat critical alerts</string>
+    <string name="settings_test_voice">Play sample voice</string>
+    <string name="settings_section_app">App Information</string>
+    <string name="settings_version">Version 2.0.0 (Native Android)</string>
+    <string name="settings_data_source">Data Source: %1$s</string>
+
+    <!-- Time Ranges -->
+    <string name="range_1h">1 Hour</string>
+    <string name="range_6h">6 Hours</string>
+    <string name="range_24h">24 Hours</string>
+    <string name="range_7d">7 Days</string>
+</resources>

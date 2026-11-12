@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">రొయ్య వాచ్</string>
+    <string name="tagline">నీటి చెంత నిజమైన రక్షణ</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_pond">చెరువు</string>
+    <string name="nav_alerts">హెచ్చరికలు</string>
+    <string name="nav_settings">సెట్టింగ్‌లు</string>
+    <string name="nav_debug">సిమ్యులేషన్</string>
+
+    <!-- Common -->
+    <string name="greeting">నమస్కారం</string>
+    <string name="farmer_default_name">రవి కుమార్</string>
+    <string name="my_pond">మీ చెరువు</string>
+    <string name="status_healthy">ఆరోగ్యకరం</string>
+    <string name="status_attention">గమనించండి</string>
+    <string name="status_critical">ప్రమాదకరం</string>
+    <string name="status_offline">ఆఫ్‌లైన్</string>
+    <string name="status_unknown">తెలియదు</string>
+    <string name="live_badge">లైవ్</string>
+    <string name="cached_badge">కాష్డ్</string>
+    <string name="simulated_badge">సిమ్యులేషన్</string>
+    <string name="last_updated">చివరి నవీకరణ: %1$s</string>
+    <string name="offline_message">ఆఫ్‌లైన్ మోడ్. పాత సమాచారం చూపబడుతోంది.</string>
+
+    <!-- Metrics -->
+    <string name="metric_do">ఆక్సిజన్ స్థాయి</string>
+    <string name="metric_temp">నీటి ఉష్ణోగ్రత</string>
+    <string name="metric_turbidity">మడ్డితనం</string>
+    <string name="metric_ph">పి.హెచ్ (pH)</string>
+    <string name="metric_tds">టి.డి.ఎస్ (TDS)</string>
+    <string name="unit_mg_l">మి.గ్రా/లీ</string>
+    <string name="unit_celsius">°సెం</string>
+    <string name="unit_ntu">NTU</string>
+    <string name="unit_ppm">ppm</string>
+    <string name="oxygen_source_predicted">మోడల్ అంచనా</string>
+    <string name="oxygen_source_measured">సెన్సార్ రీడింగ్</string>
+    <string name="oxygen_source_simulated">నమూనా</string>
+
+    <!-- Pond Health -->
+    <string name="pond_health">చెరువు ఆరోగ్యం</string>
+    <string name="pond_health_good">బాగుంది · అన్నీ సాధారణం</string>
+    <string name="pond_health_warning">శ్రద్ధ అవసరం · ఆక్సిజన్ గమనించండి</string>
+    <string name="pond_health_critical">అత్యవసరం · తక్షణ చర్య అవసరం</string>
+
+    <!-- Aerator Status & Controls -->
+    <string name="aerator_title">ఏరేటర్ స్థితి</string>
+    <string name="aerator_running">తిరుగుతోంది (ఆన్)</string>
+    <string name="aerator_stopped">ఆగిపోయింది (ఆఫ్)</string>
+    <string name="aerator_mode">మోడ్</string>
+    <string name="aerator_mode_auto">ఆటో</string>
+    <string name="aerator_mode_manual">మాన్యువల్</string>
+    <string name="aerator_turn_on">ఆన్ చేయండి</string>
+    <string name="aerator_turn_off">ఆఫ్ చేయండి</string>
+    <string name="aerator_command_pending">ఆదేశం పంపబడుతోంది…</string>
+    <string name="aerator_manual_disabled_hint">ఆటో మోడ్‌లో మాన్యువల్ బటన్లు పనిచేయవు</string>
+    <string name="aerator_auto_desc">ఆక్సిజన్ 5.0 కంటే తగ్గితే ఆన్ అవుతుంది, 6.0 దాటితే ఆఫ్ అవుతుంది</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">చెరువు హెచ్చరికలు</string>
+    <string name="filter_all">అన్నీ</string>
+    <string name="filter_critical">అత్యవసరం</string>
+    <string name="filter_warning">హెచ్చరికలు</string>
+    <string name="filter_resolved">పరిష్కారమైనవి</string>
+    <string name="no_active_alerts">ప్రస్తుతం ఎలాంటి హెచ్చరికలు లేవు. మీ చెరువు సురక్షితంగా ఉంది.</string>
+    <string name="alert_btn_listen">వినండి</string>
+    <string name="alert_btn_acknowledge">అర్థమైంది</string>
+    <string name="alert_acknowledged">ధృవీకరించబడింది</string>
+    <string name="alert_resolved">పరిష్కరించబడింది</string>
+    <string name="action_replay_audio">వాయిస్ మళ్ళీ వినండి</string>
+    <string name="action_stop_audio">వాయిస్ ఆపండి</string>
+
+    <!-- Critical Alert Experience -->
+    <string name="urgent_alert_title">అత్యవసర హెచ్చరిక</string>
+    <string name="urgent_alert_subtitle">రొయ్య వాచ్ వాయిస్ అసిస్టెంట్</string>
+    <string name="urgent_alert_listening">వాయిస్ ప్లే అవుతోంది…</string>
+    <string name="urgent_alert_tap_to_listen">తెలుగు వాయిస్ సలహా వినడానికి నొక్కండి</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">రొయ్య వాచ్‌కు స్వాగతం</string>
+    <string name="onboarding_welcome_subtitle">మీ రొయ్యల చెరువు ఆరోగ్యానికి నమ్మకమైన తెలుగు సహాయకుడు.</string>
+    <string name="onboarding_btn_get_started">ప్రారంభించండి</string>
+    <string name="onboarding_language_title">మీ భాషను ఎంచుకోండి</string>
+    <string name="onboarding_language_subtitle">యాప్ స్క్రీన్‌లు మరియు వాయిస్ హెచ్చరికల కోసం భాషను ఎంపిక చేయండి.</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_english">English</string>
+    <string name="onboarding_profile_title">రైతు ప్రొఫైల్</string>
+    <string name="onboarding_profile_name">రైతు పేరు</string>
+    <string name="onboarding_profile_phone">మొబైల్ నంబర్</string>
+    <string name="onboarding_pairing_title">చెరువును జత చేయండి</string>
+    <string name="onboarding_pairing_subtitle">మీ చెరువు వద్ద ఉన్న పరికరాన్ని ఎంచుకోండి</string>
+    <string name="onboarding_permission_title">వాయిస్ హెచ్చరికలను ఆన్ చేయండి</string>
+    <string name="onboarding_permission_subtitle">ఆక్సిజన్ పడిపోయినప్పుడు రాత్రి వేళల్లో కూడా బిగ్గరగా హెచ్చరిక వినడానికి అనుమతించండి.</string>
+    <string name="onboarding_voice_test_title">వాయిస్ ధ్వని పరీక్ష</string>
+    <string name="onboarding_voice_test_subtitle">నమూనా తెలుగు హెచ్చరిక వాయిస్ వినండి</string>
+    <string name="onboarding_btn_finish">డ్యాష్‌బోర్డ్ తెరవండి</string>
+
+    <!-- Settings -->
+    <string name="settings_title">సెట్టింగ్‌లు</string>
+    <string name="settings_section_farmer">రైతు వివరాలు</string>
+    <string name="settings_section_audio">వాయిస్ &amp; ధ్వని</string>
+    <string name="settings_voice_alerts_enabled">వాయిస్ హెచ్చరికలు ప్రారంభంలో ఉన్నాయి</string>
+    <string name="settings_voice_repeat">ముఖ్యమైన హెచ్చరికలు మళ్ళీ వినిపించు</string>
+    <string name="settings_test_voice">నమూనా వాయిస్ వినండి</string>
+    <string name="settings_section_app">యాప్ సమాచారం</string>
+    <string name="settings_version">వెర్షన్ 2.0.0 (నేటివ్ ఆండ్రాయిడ్)</string>
+    <string name="settings_data_source">డేటా మూలం: %1$s</string>
+
+    <!-- Time Ranges -->
+    <string name="range_1h">1 గంట</string>
+    <string name="range_6h">6 గంటలు</string>
+    <string name="range_24h">24 గంటలు</string>
+    <string name="range_7d">7 రోజులు</string>
+</resources>
